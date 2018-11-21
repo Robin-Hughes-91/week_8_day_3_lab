@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Bucket List</title>
+    <script src="/js/bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|EB+Garamond" rel="stylesheet">
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+  <body>
+    <h1>Bucket List</h1>
+    <div class="wrapper">
+      <div>
+        <h2>Add a Bucket</h2>
+        <form id="buckets-form">
+          <div>
+            <label for="buckets">Goal:</label>
+            <input type="text" id="goal"/>
+          </div>
+          <div>
+            <label for="location">Location:</label>
+            <input type="text" id="location"/>
+          </div>
+          <div>
+            <label for="companion">Companion:</label>
+            <input type="companion" id="companion"/>
+          </div>
+
+          <input type="submit" value="Save" id="save"/>
+        </form>
+      </div>
+      <div>
+        <h2>Buckets</h2>
+        <div id="buckets"></div>
+      </div>
+    </div>
+  </body>
+</html>
